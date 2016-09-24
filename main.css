@@ -1,5 +1,8 @@
-/*main css file */
 @media (min-width: 600px){
+  #para{
+  background-color: white;
+    margin-top: 10px;
+  }
   .container{
   text-align: center;
   margin-top: 45px;
@@ -14,11 +17,15 @@ input{
 .btn{
   margin-top: 10px;
 }
-  #senter{
+  .senter, .r{
     display: none;
   }
 }
 @media (max-width: 600px){
+  #para{
+    width: 100%;
+    background-color: white;
+  }
   #wikilogo{
     height: 30px;
   }
@@ -30,7 +37,7 @@ input{
   background-color: lightgrey;
   }
   input{
-    width: 80%;
+    width: 70%;
     
   }
   .btn{
